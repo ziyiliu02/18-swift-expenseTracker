@@ -11,6 +11,7 @@
 		64AFFBDE2AB3531C00D626D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AFFBDD2AB3531C00D626D4 /* ContentView.swift */; };
 		64AFFBE02AB3531F00D626D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64AFFBDF2AB3531F00D626D4 /* Assets.xcassets */; };
 		64AFFBE42AB3531F00D626D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64AFFBE32AB3531F00D626D4 /* Preview Assets.xcassets */; };
+		64AFFBEB2AB3F7CF00D626D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AFFBEA2AB3F7CF00D626D4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		64AFFBDF2AB3531F00D626D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64AFFBE12AB3531F00D626D4 /* _8_swift_expenseTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _8_swift_expenseTracker.entitlements; sourceTree = "<group>"; };
 		64AFFBE32AB3531F00D626D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64AFFBEA2AB3F7CF00D626D4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				64AFFBDB2AB3531C00D626D4 /* _8_swift_expenseTrackerApp.swift */,
 				64AFFBDD2AB3531C00D626D4 /* ContentView.swift */,
+				64AFFBEA2AB3F7CF00D626D4 /* Extensions.swift */,
 				64AFFBDF2AB3531F00D626D4 /* Assets.xcassets */,
 				64AFFBE12AB3531F00D626D4 /* _8_swift_expenseTracker.entitlements */,
 				64AFFBE22AB3531F00D626D4 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64AFFBDE2AB3531C00D626D4 /* ContentView.swift in Sources */,
+				64AFFBEB2AB3F7CF00D626D4 /* Extensions.swift in Sources */,
 				64AFFBDC2AB3531C00D626D4 /* _8_swift_expenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
