@@ -15,6 +15,14 @@ struct ContentView: View {
             }
             .background(Color.background)
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                // MARK: Notification Icon
+                ToolbarItem {
+                    Image(systemName: "bell.badge")
+                        .symbolRenderingMode(.palette)
+                        .foregroundStyle(Color.icon, .primary)
+                }
+            }
         }
         .navigationViewStyle(.stack)
     }
