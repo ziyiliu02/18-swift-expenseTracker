@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6422C2F22AB41DC800C2DBCA /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422C2F12AB41DC800C2DBCA /* TransactionModel.swift */; };
 		64AFFBDC2AB3531C00D626D4 /* _8_swift_expenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AFFBDB2AB3531C00D626D4 /* _8_swift_expenseTrackerApp.swift */; };
 		64AFFBDE2AB3531C00D626D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AFFBDD2AB3531C00D626D4 /* ContentView.swift */; };
 		64AFFBE02AB3531F00D626D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64AFFBDF2AB3531F00D626D4 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6422C2F12AB41DC800C2DBCA /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		64AFFBD82AB3531C00D626D4 /* 18-swift-expenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "18-swift-expenseTracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64AFFBDB2AB3531C00D626D4 /* _8_swift_expenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _8_swift_expenseTrackerApp.swift; sourceTree = "<group>"; };
 		64AFFBDD2AB3531C00D626D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				64AFFBDB2AB3531C00D626D4 /* _8_swift_expenseTrackerApp.swift */,
 				64AFFBDD2AB3531C00D626D4 /* ContentView.swift */,
+				6422C2F12AB41DC800C2DBCA /* TransactionModel.swift */,
 				64AFFBEA2AB3F7CF00D626D4 /* Extensions.swift */,
 				64AFFBDF2AB3531F00D626D4 /* Assets.xcassets */,
 				64AFFBE12AB3531F00D626D4 /* _8_swift_expenseTracker.entitlements */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6422C2F22AB41DC800C2DBCA /* TransactionModel.swift in Sources */,
 				64AFFBDE2AB3531C00D626D4 /* ContentView.swift in Sources */,
 				64AFFBEB2AB3F7CF00D626D4 /* Extensions.swift in Sources */,
 				64AFFBDC2AB3531C00D626D4 /* _8_swift_expenseTrackerApp.swift in Sources */,
