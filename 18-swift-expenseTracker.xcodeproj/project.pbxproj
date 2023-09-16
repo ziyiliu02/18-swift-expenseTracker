@@ -11,6 +11,7 @@
 		6422C2F42AB42F6B00C2DBCA /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422C2F32AB42F6B00C2DBCA /* PreviewData.swift */; };
 		6422C2F62AB4318300C2DBCA /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422C2F52AB4318300C2DBCA /* TransactionRow.swift */; };
 		6422C2F92AB44DB100C2DBCA /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 6422C2F82AB44DB100C2DBCA /* SwiftUIFontIcon */; };
+		6422C2FB2AB488B300C2DBCA /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422C2FA2AB488B300C2DBCA /* TransactionListViewModel.swift */; };
 		64AFFBDC2AB3531C00D626D4 /* _8_swift_expenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AFFBDB2AB3531C00D626D4 /* _8_swift_expenseTrackerApp.swift */; };
 		64AFFBDE2AB3531C00D626D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AFFBDD2AB3531C00D626D4 /* ContentView.swift */; };
 		64AFFBE02AB3531F00D626D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64AFFBDF2AB3531F00D626D4 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		6422C2F12AB41DC800C2DBCA /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		6422C2F32AB42F6B00C2DBCA /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		6422C2F52AB4318300C2DBCA /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		6422C2FA2AB488B300C2DBCA /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 		64AFFBD82AB3531C00D626D4 /* 18-swift-expenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "18-swift-expenseTracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64AFFBDB2AB3531C00D626D4 /* _8_swift_expenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _8_swift_expenseTrackerApp.swift; sourceTree = "<group>"; };
 		64AFFBDD2AB3531C00D626D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				64AFFBDB2AB3531C00D626D4 /* _8_swift_expenseTrackerApp.swift */,
 				64AFFBDD2AB3531C00D626D4 /* ContentView.swift */,
 				6422C2F52AB4318300C2DBCA /* TransactionRow.swift */,
+				6422C2FA2AB488B300C2DBCA /* TransactionListViewModel.swift */,
 				6422C2F12AB41DC800C2DBCA /* TransactionModel.swift */,
 				64AFFBEA2AB3F7CF00D626D4 /* Extensions.swift */,
 				64AFFBDF2AB3531F00D626D4 /* Assets.xcassets */,
@@ -164,6 +167,7 @@
 				64AFFBDE2AB3531C00D626D4 /* ContentView.swift in Sources */,
 				6422C2F62AB4318300C2DBCA /* TransactionRow.swift in Sources */,
 				64AFFBEB2AB3F7CF00D626D4 /* Extensions.swift in Sources */,
+				6422C2FB2AB488B300C2DBCA /* TransactionListViewModel.swift in Sources */,
 				64AFFBDC2AB3531C00D626D4 /* _8_swift_expenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
